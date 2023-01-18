@@ -6,7 +6,7 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 
-from text_generator_2 import settings
+from text_generator import settings
 
 
 def train_model(dataset_path: str):
